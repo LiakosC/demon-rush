@@ -1,0 +1,21 @@
+button {cursor:pointer;}
+.full {position:absolute; left:0%; top:0%; width:100%; height:100%;}
+.nomouse {pointer-events:none;}
+.noselect {user-select:none;}
+
+.distance {
+    position:absolute;
+    color:#f56b6b;
+    text-shadow:1px 1px 0px #631717;
+    font-size:120%;
+    left:1.1%;
+    top:4%;
+}
+.fullscreen_btn {
+	position:absolute;
+	right:1%; bottom:2%;
+	pointer-events:auto;
+	font-size:100%;
+	padding:0.4% 0.6%;
+	font-size:80%;
+}

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Demon Rush</title>
+		<link rel="stylesheet" type="text/css" href="include/css/style.css"/>
+		
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+		<script src="include/js/jquery.min.js"></script>
+		<script src="include/js/phaser.min.js"></script>
+		<script src="include/js/FlexibleWindow.js"></script>
+		<script src="include/js/ArrayGroup.js"></script>
+		<script src="include/js/g2.js"></script>
+		
+		<!script src="include/js/preloadState.js"></script>
+		
+		<script src="include/EpicLoading/EpicLoading.js"></script>
+		<link rel="stylesheet" type="text/css" href="include/EpicLoading/EpicLoading.css"/>
+		
+		<script src="include/js/App.js"></script>
+		<script src="include/js/Game.js"></script>
+		<script src="include/js/GameInputer.js"></script>
+		<script src="include/js/Model.js"></script>
+		<script src="include/js/Unit.js"></script>
+		<script src="include/js/Wall.js"></script>
+		<script src="include/js/GUI.js"></script>
+		<script>if (window.module) module = window.module;</script>
+		
+	</head>
+	<body>
+		<div id="window"></div>
+	</body>
+</html>
+
+<script>
+	var VELOCITY = 150;
+	var HIGHLIGHT = false;
+	var HERO_WIDTH = 60;
+	var HERO_HEIGHT = 55;
+	var GRAVITY = 1500;
+	var HERO_JUMP_VELOCITY = 500;
+
+	var app = new App();
+	app.fastLoading = false;
+	//app.fastLoading = true;
+	app.init();
+	
+</script>
+

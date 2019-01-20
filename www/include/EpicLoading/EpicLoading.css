@@ -1,0 +1,79 @@
+@keyframes EpicLoading-pulse {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.2);}
+	100% {transform: scale(1);}
+}
+
+.EpicLoading .animate {
+	animation: EpicLoading-pulse 1s;
+	animation-iteration-count: infinite;
+}
+
+.EpicLoading {
+	background-color:#50404d;
+	position:relative;
+	width:100%;
+	height:100%;
+	pointer-events:auto;
+}
+
+.EpicLoading.finished {
+	cursor:pointer;
+}
+
+.EpicLoading * {
+	/*pointer-events:none;*/
+	user-select:none;
+}
+
+.EpicLoading .title {
+	font-size:700%;
+	font-weight:bold;
+	text-align:center;
+	color:#64386b;
+	text-shadow:2px 2px 0px black;
+}
+.EpicLoading .subtitle {
+	font-size:200%;
+	font-weight:bold;
+	text-align:center;
+	color:#2d7136;
+	text-shadow:2px 2px 0px black;
+}
+.EpicLoading .overbar {
+	position:relative;
+	margin:20% auto 2% auto;
+	font-size:190%;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 0px black;
+	width:50%;
+}
+
+.EpicLoading .bar {
+	position:relative;
+	margin:0px auto;
+	width:80%;
+	top:0px;
+	height:24px;;
+	background:#000000;
+	border:3px solid #261529;
+	border-radius:100px;
+}
+
+.EpicLoading .bar > div {
+	position:absolute;
+	left:0%;
+	top:0%;
+	height:100%;
+	background:#64386b;
+	border-radius:inherit;
+}
+.EpicLoading .underbar {
+	margin-top:2%;
+	font-size:120%;
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 0px black;
+}
