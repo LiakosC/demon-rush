@@ -1,5 +1,7 @@
 # Demon Rush
 
-Canvas game like Floopy bird.
+First game I ever created, using JS and PhaserJS.
 
-My first game ever made. Infinite flow without memory leaks. Strong fullscreen implementation synchronizing html elements and canvas renderings.
+Random + Infinitely generated world.
+
+Better than floppy bird?

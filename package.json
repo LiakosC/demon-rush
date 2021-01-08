@@ -1,0 +1,19 @@
+{
+  "name": "demonrush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "window.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node build.js"
+  },
+  "repository": "https://github.com/LiakosC/demon-rush.git",
+  "author": "Ilias Apostolou",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
